@@ -8,14 +8,11 @@
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.Logger;
-import com.project.hackhub.dto.HackathonCreationResponse;
-import com.project.hackhub.dto.HackathonDTO;
-import com.project.hackhub.dto.PersonalDataDTO;
+import com.project.hackhub.dto.*;
 import com.project.hackhub.handler.*;
 import com.project.hackhub.model.hackathon.*;
 import com.project.hackhub.model.hackathon.state.HackathonStateType;
-import com.project.hackhub.model.team.Invitation;
-import com.project.hackhub.model.team.Team;
+import com.project.hackhub.model.team.*;
 import com.project.hackhub.repository.HackathonRepository;
 import com.project.hackhub.repository.InvitationRepository;
 import com.project.hackhub.repository.SubmissionRepository;

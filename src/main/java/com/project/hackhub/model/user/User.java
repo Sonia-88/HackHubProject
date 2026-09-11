@@ -9,7 +9,7 @@
 import com.project.hackhub.model.hackathon.Hackathon;
 import com.project.hackhub.model.hackathon.Reservation;
 import com.project.hackhub.model.team.Invitation;
-import com.project.hackhub.model.user.state.UserStateFactory;
+import com.project.hackhub.model.user.state.*;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
