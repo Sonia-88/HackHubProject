@@ -40,3 +40,4 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/hackhub/data/Database_hackhub_h2.lock.db
