@@ -8,6 +8,8 @@
 
 import com.project.hackhub.observer.EventListener;
 import com.project.hackhub.observer.EventManager;
+import io.swagger.v3.oas.annotations.enums.SecuritySchemeType;
+import io.swagger.v3.oas.annotations.security.SecurityScheme;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -19,6 +21,14 @@ import java.util.Map;
  * Gestisce il bootstrap dell'applicazione e l'inizializzazione dei listener del pattern Observer.
  */
 @SpringBootApplication
+//Per abilitare il pulsante "Authorize" in Swagger
+@SecurityScheme(
+		name = "bearerAuth",
+		type = SecuritySchemeType.HTTP,
+		scheme = "bearer",
+		bearerFormat = "JWT"
+)
+
 public class HackHubApplication {
 
 	/**
