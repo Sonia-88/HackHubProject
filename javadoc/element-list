@@ -1,0 +1,17 @@
+com.project.hackhub
+com.project.hackhub.boundary
+com.project.hackhub.cli
+com.project.hackhub.dto
+com.project.hackhub.exceptions
+com.project.hackhub.handler
+com.project.hackhub.model.hackathon
+com.project.hackhub.model.hackathon.builder
+com.project.hackhub.model.hackathon.report
+com.project.hackhub.model.hackathon.state
+com.project.hackhub.model.team
+com.project.hackhub.model.user
+com.project.hackhub.model.user.state
+com.project.hackhub.observer
+com.project.hackhub.repository
+com.project.hackhub.service
+com.project.hackhub.service.calendar
